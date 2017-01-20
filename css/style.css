@@ -1,0 +1,48 @@
+body{
+	font-family: 'Frank Ruhl Libre', sans-serif;
+	box-sizing: border-box;
+    overflow:hidden; 
+   
+}
+
+img{
+    width: 100%;
+    background-size: 100% 100%;
+    padding: var(--spacing);
+    background: var(--base);
+    filter: blur(var(--blur));
+}
+.bg-color{
+    background: #ebcdcd;
+}
+.image-container{
+    width: 500px;
+    height: 500px;
+
+}
+.controls{
+    vertical-align: top;
+    font-size: 20px;
+
+}
+input[type=range],input[type=color]{
+    width:100px;
+    margin-bottom: 50px;
+    position: relative;
+    top: 6px;
+}
+label{
+    text-align: right;
+    clear: both;
+    float:left;
+    margin-right:15px;
+
+}
+:root{
+    --base:#ffc600;
+    --spacing:10px;
+    --blur:10px;
+}
+.js{
+    color: var(--base);
+}
